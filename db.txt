@@ -1,0 +1,5 @@
+create database ecom;
+
+create table signup(id bigint not null primary key auto_increment,username varchar(300),password varchar(300),name varchar(300),email varchar(300),phone varchar(300),status varchar(300));
+
+create table images_section(id bigint not null primary key AUTO_INCREMENT,emp_id varchar(300),img_url varchar(300),img_path varchar(300), img_name varchar(300),img_descr varchar(300),status varchar(300))
